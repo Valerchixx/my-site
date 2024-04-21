@@ -1,0 +1,76 @@
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  margin-bottom: 60px;
+}
+.text {
+  max-width: 800px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.text span {
+  font-weight: bold;
+}
+
+/* Hero section */
+
+#hero {
+  background-color: #edecff;
+  height: 500px;
+}
+
+#hero .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h1,
+p {
+  text-align: center;
+  margin-top: 0;
+  vertical-align: middle;
+}
+
+#hero h1 {
+  font-size: 54px;
+  margin-bottom: 5px;
+}
+
+#hero p {
+  font-size: 20px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 300px;
+  background-color: #edecff;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px -4px 10px -5px rgba(125, 125, 125, 1);
+  -moz-box-shadow: -1px -4px 10px -5px rgba(125, 125, 125, 1);
+  box-shadow: -1px -4px 10px -5px rgba(125, 125, 125, 1);
+}
+.card:first-child {
+  margin-right: 20px;
+}
+
+.card h4 {
+  text-align: center;
+}
